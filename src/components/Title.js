@@ -4,7 +4,7 @@ import style from "./Title.css";
 const Title = props => {
     return (
         <div className={style.Title}>
-            <h1 className={style.Name}>{props.title}</h1>
+            <h1 className={style.Name}>{props.Title}</h1>
         </div>
     );
 }
